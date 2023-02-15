@@ -1,7 +1,7 @@
 import React from "react";
+import { Layout } from "antd";
 
 import "./Wrapper.css";
-import { Layout } from "antd";
 
 interface IProps {
   children: React.ReactNode;
