@@ -24,11 +24,7 @@ export default function Users() {
 
 		dispatch({ type: "CLEAR_USER_TO_EDIT" });
 		dispatch({ type: "CLEAR_USER_FOR_EDIT_ERROR" });
-	}, [dispatch]);
-
-	// useEffect(() => {
-	// 	dispatch({ type: "GET_USERS_DATA", page, gender });
-	// }, [page, gender]);
+	}, [dispatch, page]);
 
 	const renderUsers = useCallback(
 		() => {

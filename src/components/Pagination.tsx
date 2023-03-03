@@ -26,7 +26,6 @@ export default function Pagination() {
 		return (
 			<Button
 				type={"link"}
-				// disabled={page !== allPages}
 				onClick={handleNext}
 			>
 				Next
@@ -39,7 +38,6 @@ export default function Pagination() {
 		return (
 			<Button
 				type={"link"}
-				// disabled={page > 1}
 				onClick={handleBack}
 			>
 					Back
